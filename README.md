@@ -1,4 +1,4 @@
-# Fluidd
+# Fluidd for Creality K2 Series
 
 Fluidd is a free and open-source Klipper web interface for managing your 3d printer.
 
@@ -51,8 +51,9 @@ Your support can make a significant impact on the evolution of Fluidd. Please co
 
 A big thank you to:
 
-- the [Voron Community](http://vorondesign.com/)
+- The [Voron Community](http://vorondesign.com/)
 - Kevin O'Connor for [Klipper](https://github.com/Klipper3d/klipper)
 - Eric Callahan for [Moonraker](https://github.com/Arksine/moonraker)
 - Dominik Willner for [KIAUH](https://github.com/dw-0/kiauh)
 - Ray for [MainsailOS](https://github.com/raymondh2/MainsailOS)
+- [Julio Sueiras](https://github.com/juliosueiras) for implementation of WebRTC stream for Creality K2

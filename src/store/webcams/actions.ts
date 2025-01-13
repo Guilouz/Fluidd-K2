@@ -81,6 +81,12 @@ export const actions: ActionTree<WebcamsState, RootState> = {
 
   async onWebcamsList ({ commit }, payload: { webcams: WebcamConfig[] }) {
     if (payload) {
+      payload.webcams = payload.webcams.map((item) => {
+        if (!item.uid) {
+          item.uid = item.name
+        }
+        return item
+      })
       commit('setWebcamsList', payload)
     }
   },
