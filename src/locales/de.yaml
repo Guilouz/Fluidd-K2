@@ -32,11 +32,15 @@ app:
       rate_of_change: Änderung
       pid_calibration: PID-Kalibrierung
       target_temperature: Zieltemperatur
+      turn_off: Ausschalten
     tooltip:
       help: >-
         Halten Sie <kbd>Umschalt</kbd> gedrückt, um zu zoomen. <br />Klicken Sie auf
         ein Element, um es im Diagramm ein-/auszublenden. <br />Klicken Sie auf eine
         Leistung, um sie im Diagramm ein-/auszublenden.
+    title:
+      mpc_calibrate: MPC-Kalibrierung {name}
+      pid_calibrate: PID-Kalibrierung {name}
   console:
     label:
       auto_scroll: Automatisches Scrollen
@@ -84,7 +88,7 @@ app:
         print_start_time: Nur ungedruckte
         klipper_backup_files: Klipper-Backupdateien ausblenden
         rolled_log_files: Alte Logdateien ausblenden
-        hidden_files_folders: Versteckte Dateien und Ordner ausblenden
+        hidden_files: Versteckte Dateien und Ordner ausblenden
         moonraker_backup_files: Moonraker-Backupdateien ausblenden
         crowsnest_backup_files: Crowsnest-Backupdateien ausblenden
         moonraker_temporary_upload_files: Temporäre Moonraker-Uploaddateien ausblenden
